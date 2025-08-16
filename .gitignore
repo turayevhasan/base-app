@@ -15,9 +15,18 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.jpb
 *.iws
 *.iml
 *.ipr
+/mvnw
+/mvnw.cmd
+src/main/resources/*.sql
+/files/
+/.gitattributes
+/application_logs
+/src/main/resources/static/files
+/docker-compose.yml
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +40,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/.mvn/
