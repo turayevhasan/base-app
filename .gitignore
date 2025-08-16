@@ -1,18 +1,12 @@
-HELP.md
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.metadata
+**/*.iml
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
+.mvn/
+logs/
 ### IntelliJ IDEA ###
 .idea
 .jpb
@@ -26,18 +20,5 @@ src/main/resources/*.sql
 /.gitattributes
 /application_logs
 /src/main/resources/static/files
+HELP.md
 /docker-compose.yml
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-/.mvn/
