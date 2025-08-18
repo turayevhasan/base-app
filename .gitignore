@@ -19,6 +19,3 @@ src/main/resources/*.sql
 /files/
 /.gitattributes
 /application_logs
-/src/main/resources/static/files
-HELP.md
-/docker-compose.yml
