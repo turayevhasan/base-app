@@ -4,7 +4,7 @@
 **/*.ear
 **/*.metadata
 **/*.iml
-/.target/
+target/
 .mvn/
 logs/
 ### IntelliJ IDEA ###
@@ -13,7 +13,8 @@ logs/
 *.iws
 *.iml
 *.ipr
-/.mvnw/
+/mvnw
+/mvnw.cmd
 src/main/resources/*.sql
 /files/
 /.gitattributes
@@ -21,4 +22,3 @@ src/main/resources/*.sql
 /src/main/resources/static/files
 HELP.md
 /docker-compose.yml
-/.mvn/
