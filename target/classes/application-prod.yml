@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: ${APP_PORT:8080}
 
   tomcat:
     uri-encoding: UTF-8
@@ -11,9 +11,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: root123
+    url: ${DATE_SOURCE_URL:jdbc:postgresql://localhost:5432/app_db}
+    username: ${DB_USER:app_user}
+    password: ${DB_PASSWORD:app_password}
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10

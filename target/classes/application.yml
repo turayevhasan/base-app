@@ -2,4 +2,4 @@ spring:
   application:
     name: BaseApp
   profiles:
-    active: ${APP_PROFILE:dev}
+    active: dev

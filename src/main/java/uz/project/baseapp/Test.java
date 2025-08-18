@@ -1,2 +1,4 @@
-package uz.project.baseapp;public class Test {
+package uz.project.baseapp;
+
+public class Test {
 }
